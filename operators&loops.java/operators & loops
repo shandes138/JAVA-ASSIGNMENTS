@@ -1,0 +1,94 @@
+QUESTION 1.)  What are the Conditional Operators in Java?
+ANSWER:- They are used when a condition compJises moJe than one boolean expJession. We have 3 types of conditional operators-
+  1.logical-AND
+  2. logical-OR
+  3.  ternary operator
+
+
+
+  
+ 
+QUESTION 2.) What are the types of operators based on the number of operands?
+Ans: There are three types of operators in java based on the number of operands. They are
+. unary operator
+. Binary operator
+. ternary operator
+
+
+
+  
+
+QUESTIONS 3) What is the use of Switch case in Java programming?
+ANSWER:- The switch case in java is used to select one of many code blocks foJ execution.
+ FOR EXAMPLE:-
+   
+   
+
+4. What are the priority levels of arithmeti6 operation in <ava3
+Ans:AThPrPAarPAtwoApriorityAlPvPlsAofAarithmPticAopPrationAinAjava.AThPyAarPAasAfollows@
+; HighApriority ⇒ A*A/A5
+; LowApriority ⇒ A+ –
+5. What are the 6onditional Statements and use of 6onditional statements in <ava2
+; ifAtoAspPcifyAaAblockAofAcodPAtoAbPAPxPcutPd,AifAaAspPcifiPdAconditionAisAtruO
+; PlsPAtoAspPcifyAaAblockAofAcodPAtoAbPAPxPcutPd,AifAthPAsamPAconditionAisAfalsO
+; PlsPAifAtoAspPcifyAaAnPwAconditionAtoAtPst,AifAthPAfirstAconditionAisAfalsO
+; switchAtoAspPcifyAmanyAaltPrnativPAblocksAofAcodPAtoAbPAPxPcutPd
+public class Main {
+public static void main(String[] args) {
+int month = 4;
+switch (month) {
+case 1:
+System.out.println("January");
+break;
+case 2:
+System.out.println("February");
+break;
+case 3:
+System.out.println("March");
+break;
+case 4:
+System.out.println("April");
+break;
+case 5:
+System.out.println("May");
+break;
+case 6:
+System.out.println("June");
+break;
+default: System.out.println("In next half");
+}
+}
+}
+Output:
+
+Cracking the Coding Interview in JAVA - Foundation
+
+Assignment Questions
+6. What is the syntax of if else statement?
+
+7. What are the 3 types of iterative statements in java?
+3 typ:s of it:rativ: stat:3:nts in jav2
+T for loo9
+T whil: loo9
+T do-whil: loop
+8. Difference Uetween for loop and do while loop
+
+9. Write a program to print numUers from 1 to 10.
+if (condition1) {
+// block of code to be executed if condition1 is true
+} else if (condition2) {
+// block of code to be executed if the condition1 is false and condition2 is true
+} else {
+// block of code to be executed if the condition1 is false and condition2 is false
+}
+
+public class PrintNumbers
+{
+public static void main(String[] args)
+{
+for(int i=1; i<=10; i++)
+{
+System.out.println(i);
+}
+}
+}
